@@ -6,7 +6,7 @@ webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
 [triggers]
-crons = ["*/5 * * * *"]
+crons = ["* * * * *"]
 
 [site]
 bucket = "out"
@@ -17,3 +17,8 @@ entry-point = "./"
 #kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
 #zone_id="xxx"
 #route="xxx"
+
+[observability]
+enabled = true
+[placement]
+mode = "smart"

@@ -40,4 +40,12 @@ monitors:
     linkable: true
     description: 'I wanna see this movie, can I get it?'
     followRedirect: true
+
+  - id: stats-blintflix-io
+    name: stats.blintflix.io
+    url: 'https://stats.blintflix.io/'
+    method: GET
+    expectedStatus: 200
+    linkable: true
+    description: 'Statistics for the nerds'
     
