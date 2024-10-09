@@ -48,4 +48,53 @@ monitors:
     expectedStatus: 200
     linkable: true
     description: 'Statistics for the nerds'
-    
+
+  - id: sonarr
+    name: Sonarr
+    url: 'https://sonarr.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+  
+  - id: radarr
+    name: Radarr
+    url: 'https://radarr.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+
+  - id: bazarr
+    name: Bazarr
+    url: 'https://bazarr.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+  
+  - id: prowlarr
+    name: Prowlarr
+    url: 'https://prowlarr.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+
+  - id: lidarr
+    name: Lidarr
+    url: 'https://lidarr.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+  
+  - id: readarr
+    name: Readarr
+    url: 'https://readarr.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+  
+  - id: q
+    name: Q
+    url: 'https://q.blint.me/'
+    method: GET
+    expectedStatus: 200
+    linkable: false
+    \
