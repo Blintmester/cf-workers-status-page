@@ -55,6 +55,7 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
+    followRedirect: true
   
   - id: radarr
     name: Radarr
@@ -62,6 +63,7 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
+    followRedirect: true
 
   - id: bazarr
     name: Bazarr
@@ -69,6 +71,7 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
+    followRedirect: true
   
   - id: prowlarr
     name: Prowlarr
@@ -76,6 +79,7 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
+    followRedirect: true
 
   - id: lidarr
     name: Lidarr
@@ -83,6 +87,7 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
+    followRedirect: true
   
   - id: readarr
     name: Readarr
@@ -90,6 +95,7 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
+    followRedirect: true
   
   - id: q
     name: Q
@@ -97,4 +103,5 @@ monitors:
     method: GET
     expectedStatus: 200
     linkable: false
-    \
+    followRedirect: true
+    
