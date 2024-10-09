@@ -39,3 +39,5 @@ monitors:
     expectStatus: 200
     linkable: true
     description: 'I wanna see this movie, can I get it?'
+    followRedirect: true
+    
