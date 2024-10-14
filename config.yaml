@@ -80,14 +80,6 @@ monitors:
     expectedStatus: 200
     linkable: false
     followRedirect: true
-
-  - id: lidarr
-    name: Lidarr
-    url: 'https://lidarr.blint.me/'
-    method: GET
-    expectedStatus: 200
-    linkable: false
-    followRedirect: true
   
   - id: readarr
     name: Readarr
