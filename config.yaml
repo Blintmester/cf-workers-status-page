@@ -25,7 +25,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: no-cdn-blintflix-io # unique identifier
-    name: Blintflix (no CDN)
+    name: 'Blintflix (no CDN)'
     description: 'Blintflix' # default=empty
     url: 'https://bp.blintflix.io/' # URL to fetch
     method: GET # default=GET
